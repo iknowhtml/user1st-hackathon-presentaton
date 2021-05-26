@@ -1,28 +1,30 @@
-<p align="center">
-  <a href="https://revealjs.com">
-  <img src="https://hakim-static.s3.amazonaws.com/reveal-js/logo/v1/reveal-black-text.svg" alt="reveal.js" width="450">
-  </a>
-  <br><br>
-  <a href="https://github.com/hakimel/reveal.js/actions"><img src="https://github.com/hakimel/reveal.js/workflows/tests/badge.svg"></a>
-  <a href="https://slides.com/"><img src="https://s3.amazonaws.com/static.slid.es/images/slides-github-banner-320x40.png?1" alt="Slides" width="160" height="20"></a>
-</p>
+# User1st Hackathon (5/25/21)
 
-reveal.js is an open source HTML presentation framework. It enables anyone with a web browser to create fully featured and beautiful presentations for free. [Check out the live demo](https://revealjs.com/).
+## Challenge
+Automate the identification of date picker trigger elements & container elements
 
-The framework comes with a broad range of features including [nested slides](https://revealjs.com/vertical-slides/), [Markdown support](https://revealjs.com/markdown/), [Auto-Animate](https://revealjs.com/auto-animate/), [PDF export](https://revealjs.com/pdf-export/), [speaker notes](https://revealjs.com/speaker-view/), [LaTeX support](https://revealjs.com/math/), [syntax highlighted code](https://revealjs.com/code/) and much more.
+## Solution
+Pre-train a BERT model network with HTML represented in Emmet syntax, and leverage the resultant network to fine tune a model to identify HTML as a datepicker trigger or container element as a binary classification task.
 
-<h1>
-  <a href="https://revealjs.com/installation" style="font-size: 3em;">Get Started</a>
-</h1>
+## Resources
 
-## Documentation
-The full reveal.js documentation is available at [revealjs.com](https://revealjs.com).
+### Papers
+[BERT: Pre-training of Deep Bidirectional Transformers for
+Language Understanding](https://arxiv.org/pdf/2002.12327.pdf)
+[A Primer in BERTology: What We Know About How BERT Works](https://arxiv.org/pdf/2002.12327.pdf)
 
-## Online Editor
-Want to create your presentation using a visual editor? Try the official reveal.js presentation platform for free at [Slides.com](https://slides.com). It's made by the same people behind reveal.js.
+### Articles
+[BERT Explained: State of the art language model for NLP](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
+(Explaining BERT Simply Using Sketches)[https://mlwhiz.medium.com/explaining-bert-simply-using-sketches-ba30f6f0c8cb]
+[Understanding searches better than ever before](https://blog.google/products/search/search-language-understanding-bert/)
+[FAQ: All about the BERT algorithm in Google search](https://searchengineland.com/faq-all-about-the-bert-algorithm-in-google-search-324193)
 
-## License
+### Classification Tutorials Using BERT
+[A Visual Guide to Using BERT for the First Time](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
+[Transfer Learning for NLP: Fine-Tuning BERT for Text Classification](https://www.analyticsvidhya.com/blog/2020/07/transfer-learning-for-nlp-fine-tuning-bert-for-text-classification/)
 
-MIT licensed
+### Libaries
+[Hugging Face BERT Implementation](https://huggingface.co/transformers/model_doc/bert.html#)
 
-Copyright (C) 2011-2021 Hakim El Hattab, https://hakim.se
+### Misc.
+[How to train a new language model from scratch using Transformers and Tokenizers](https://huggingface.co/blog/how-to-train)
