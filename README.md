@@ -6,6 +6,9 @@ Automate the identification of date picker trigger elements & container elements
 ## Solution
 Pre-train a BERT model network with HTML represented in Emmet syntax, and leverage the resultant network to fine tune a model to identify HTML as a datepicker trigger or container element as a binary classification task.
 
+## Presentation
+http://iknowht.ml/user1st-hackathon-presentaton/
+
 ## Resources
 
 ### Papers
