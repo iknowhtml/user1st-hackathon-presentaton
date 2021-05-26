@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>User1st - Hackathon</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/black.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section>
+				<b>A NLP-Based Approach To Datepicker Identification Using BERT & Binary
+					Classification Neural Networks</b>
+			</section>
+			<section>
+				<h3>The Problem</h3>
+				<p>Automate the identification of date picker trigger elements & container elements</p>
+			</section>
+			<section>
+				<h3>The Solution</h3>
+				<p>Pre-train a BERT model network with HTML represented in Emmet syntax, and leverage the resultant
+					network to fine tune a model to identify HTML as a datepicker
+					trigger or container element as a binary classification task</p>
+			</section>
+			<section>
+				<h3>What is BERT?</h3>
+				<ul>
+					<li>Open-sourced neural network-based technique for NLP released by
+						Google</li>
+					<li>Processes words in relation to all other words in a sentence rather than one-by-one order</li>
+				</ul>
+			</section>
+			<section>
+				<h3>Why BERT?</h3>
+				<ul>
+					<li>Traditional machine learning approaches require training against labeled data</li>
+					<li>BERT is able to understand human language in context without labeled data</li>
+					<li>HTML shares similarities to human language</li>
+					<li>BERT offers an approach to creating a model that understands HTML</li>
+				</ul>
+			</section>
+			<section>
+				<h3>What is Emmet?</h3>
+				<p>syntax used to represent HTML based on CSS selectors.</p>
+				<pre>
+					<code data-trim data-noescap>
+						div + div > p > span + em
+			</code>
+		</pre>
+				<pre>
+					<code data-trim data-noescap>
+					<div></div>
+					<div>
+						<p>
+							<span></span>
+							<em></em>
+						</p>
+					</div>
+				</code>
+			</pre>
+			</section>
+			<section>
+				<h3>What is Emmet? (Cont.)</h3>
+				<pre>
+					<code data-trim data-noescap>
+						div#page > div.logo + ul.navigation > li*5 > a{Item $}
+			</code>
+		</pre>
+				<pre>
+					<code data-trim data-noescap>
+						<div id="page">
+							<div class="logo"></div>
+							<ul class="navigation">
+								<li><a href="">Item 1</a></li>
+								<li><a href="">Item 2</a></li>
+								<li><a href="">Item 3</a></li>
+								<li><a href="">Item 4</a></li>
+								<li><a href="">Item 5</a></li>
+							</ul>
+						</div>
+				</code>
+			</pre>
+			</section>
+			<section>
+				<h3>Why Emmet?</h3>
+				<p>Offers a representation of HTML that is more concise and similar in structure to human language.</p>
+			</section>
+			<section>
+				<h3>High Level Architecture</h3>
+				<img src="./architecture.png" />
+			</section>
+			<section>
+				<h3>Considerations</h3>
+				<li>Representation of the HTML</li>
+				<li>Resource Limitations</li>
+				<li>Unpredictable nature of neural networks</li>
+			</section>
+			<section>
+				<h2>Questions?</h2>
+			</section>
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+		});
+	</script>
+</body>
+
+</html>
