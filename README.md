@@ -32,7 +32,7 @@ Language Understanding](https://arxiv.org/pdf/2002.12327.pdf)
 
 [Transfer Learning for NLP: Fine-Tuning BERT for Text Classification](https://www.analyticsvidhya.com/blog/2020/07/transfer-learning-for-nlp-fine-tuning-bert-for-text-classification/)
 
-### Libaries
+### Libraries
 [Hugging Face BERT Implementation](https://huggingface.co/transformers/model_doc/bert.html#)
 
 ### Misc.
