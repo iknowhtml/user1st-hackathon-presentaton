@@ -25,7 +25,7 @@ Language Understanding](https://arxiv.org/pdf/2002.12327.pdf)
 
 [Understanding searches better than ever before](https://blog.google/products/search/search-language-understanding-bert/)
 
-[FAQ: All about the BERT algorithm in Google search](https://searchengineland.com/faq-all-about-the-bert-algorithm-in-google-search-324193)\
+[FAQ: All about the BERT algorithm in Google search](https://searchengineland.com/faq-all-about-the-bert-algorithm-in-google-search-324193)
 
 ### Classification Tutorials Using BERT
 [A Visual Guide to Using BERT for the First Time](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
