@@ -12,18 +12,24 @@ http://iknowht.ml/user1st-hackathon-presentaton/
 ## Resources
 
 ### Papers
+
 [BERT: Pre-training of Deep Bidirectional Transformers for
 Language Understanding](https://arxiv.org/pdf/2002.12327.pdf)
+
 [A Primer in BERTology: What We Know About How BERT Works](https://arxiv.org/pdf/2002.12327.pdf)
 
 ### Articles
 [BERT Explained: State of the art language model for NLP](https://towardsdatascience.com/bert-explained-state-of-the-art-language-model-for-nlp-f8b21a9b6270)
-(Explaining BERT Simply Using Sketches)[https://mlwhiz.medium.com/explaining-bert-simply-using-sketches-ba30f6f0c8cb]
+
+[Explaining BERT Simply Using Sketches](https://mlwhiz.medium.com/explaining-bert-simply-using-sketches-ba30f6f0c8cb)
+
 [Understanding searches better than ever before](https://blog.google/products/search/search-language-understanding-bert/)
-[FAQ: All about the BERT algorithm in Google search](https://searchengineland.com/faq-all-about-the-bert-algorithm-in-google-search-324193)
+
+[FAQ: All about the BERT algorithm in Google search](https://searchengineland.com/faq-all-about-the-bert-algorithm-in-google-search-324193)\
 
 ### Classification Tutorials Using BERT
 [A Visual Guide to Using BERT for the First Time](https://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/)
+
 [Transfer Learning for NLP: Fine-Tuning BERT for Text Classification](https://www.analyticsvidhya.com/blog/2020/07/transfer-learning-for-nlp-fine-tuning-bert-for-text-classification/)
 
 ### Libaries
